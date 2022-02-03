@@ -331,18 +331,22 @@ footer a {
         display: none;
     }
 }
-
-main{
-    display: grid;
-    grid-template-columns: 60% 40%;
+@media screen and (min-width:1200px) {
+    main{
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    
+    section{
+        position: sticky;
+        top: 320px;
+        padding-left: 10px;
+        padding-right: 10px;
 }
 
-section{
-    position: sticky;
-    top: 320px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
+
+
 
 
 
