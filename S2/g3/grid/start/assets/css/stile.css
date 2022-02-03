@@ -337,12 +337,11 @@ main{
     grid-template-columns: 60% 40%;
 }
 
-
-
 section{
     position: sticky;
-    top:320px;
-    align-self: start;
+    top: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
