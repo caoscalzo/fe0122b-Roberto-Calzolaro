@@ -22,10 +22,10 @@
     <nav>
 
      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="chi-siamo.html">Chi siamo</a></li>
-        <li><a href="contatti.html">Contatti</a></li>
-        <li><a class="pulsante" href="#">Registrati</a></li>
+        <li><a class="buttongrey" href="index.html">Home</a></li>
+        <li><a class="buttongrey" href="chi-siamo.html">Chi siamo</a></li>
+        <li><a class="buttongrey" href="contatti.html">Contatti</a></li>
+        <li><a class="buttonblu" href="#">Registrati</a></li>
      </ul>
      
     </nav>
@@ -34,16 +34,19 @@
     <section class="wwa">
       <h1>We are coder</h1>
       <p>Epicode school nasce con l'obiettivo di rivoluzionare la formazione in ambito tech. Vogliamo essere il movimento dei creatori digitali che il mercato richiede: formiamo, forniamo e aggiorniamo specialisti con la missione di trasformare le aziende dall'interno e offrire ai giovani sicure prospettive di carriera. Siamo a Roma ma arriviamo in tutta Italia, per creare la community che rivoluzionerà il mondo del lavoro</p>
-      
     </section>
-    <div class="imgwwa">
-    <img src="assets/images/foto1.jpg" alt="">
-    <p>Investiamo sul talento e vogliamo dimostrartelo: effettua un colloquio di selezione per accedere ad una delle 5 borse di studio disponibili. </p>
-    </div>
-    <div class="imgwwa">
-      <img src="assets/images/foto2.jpg" alt="">
-      <p>Riceverai subito l'esito, quindi ti consigliamo di contattarci prima che le borse di studio si esauriscano: contattaci e candidati subito. </p>
-    </div>
+
+    <div class="wearecoder">
+      <div class="imgwwa">
+        <img src="assets/images/foto1.jpg" alt="">
+       <p>Investiamo sul talento e vogliamo dimostrartelo: effettua un colloquio di selezione per accedere ad una delle 5 borse di studio disponibili. </p>
+      </div>
+
+      <div class="imgwwa">
+        <img src="assets/images/foto2.jpg" alt="">
+        <p>Riceverai subito l'esito, quindi ti consigliamo di contattarci prima che le borse di studio si esauriscano: contattaci e candidati subito. </p>
+      </div>
+  </div>
 
     <div class="tablecont">
     <h2>Prezzi dei corsi</h2>
@@ -99,28 +102,30 @@
   </div>
   </main>
   <footer>
+    <div class="piedipagina">
     <div>
       <h3> Chi siamo</h3>
       <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
     </div>
     <div>
       <h3> Ti piace ciò che vedi? <br> Condividilo con i tuoi amici!</h3>
-      <i class="fab fa-facebook-square"></i> 
-      <i class="fab fa-linkedin"> </i>
-      <i class="fab fa-instagram-square"></i>
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
     </div>
     <div>
       <h3>Iscriviti alla nostra newsletter</h3>
       <form action="post">
         <fieldset>
-          <input type="email" name="email" id="email" required> 
-          <button type="submit"> <strong>Va bene!</strong> </button>
+          <input  type="email" name="email" id="email" required> 
+          <button class="ridotto" type="submit"> <strong>Va bene!</strong> </button>
         </fieldset>
-        
       </form>
-      <p>&copy; 2021 Epicode Web Developer school - Via appia 1, 00100 Roma  (RM)  - Tel . 06-12345678</p>
     </div>
+  </div>
+    <p id="copy">&copy; 2021 Epicode Web Developer school - Via appia 1, 00100 Roma  (RM)  - Tel . 06-12345678</p>
   </footer>
+  
 </body>
 
 </html>

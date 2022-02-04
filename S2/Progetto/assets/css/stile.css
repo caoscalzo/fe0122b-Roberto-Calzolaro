@@ -367,12 +367,67 @@ header nav ul{
 */
 
 @media screen and (min-width:780px) {
-    .first{
-}
 
     .contenitore{
         width: 60%;
         margin: 0 auto;
     }
+
+    .contdiv h3, .figli{
+        text-align: left;
+    }
+
+    .contdiv{
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .notebook{
+        width: 300px;
+        height: 300px;
+        float: left;
+        margin-left: 100px;
+    }
+
+    .pcandtitles{
+        width: 100%;
+        margin:0 auto;
+    }
+    .latonotebook{
+        text-align: left;
+        margin-left: 450px;
+    }
+
+    .piedipagina{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 20px;
+    }
+    .piedipagina div{
+        width: 30%;
+    }
+
+    .ridotto{
+        width:300px;
+    }
+
+    #email{
+        width: 292px;
+    }
+
+     #copy{
+         text-align: center;
+     }
+     
+     footer{
+         margin-top: 70px;
+     }
+}
+.wearecoder{
+    display: flex;
 }
 
