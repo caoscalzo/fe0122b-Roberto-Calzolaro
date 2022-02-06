@@ -4,128 +4,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Epicode school:il punto di partenza per la tua professione di Developer">
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="assets/css/all.css">
-  <link rel="stylesheet" href="assets/css/stile.css">
+  <meta name="description" content="Epicode School: il punto di partenza per la tua professione di Developer.">
+  <title>Epicode - Profilo aziendale</title>  
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-  <title>Epicode - Formazione Web developer</title>  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+  <link href="assets/css/reset.css" rel="stylesheet">
+  <link href="assets/css/stile.css" rel="stylesheet">
 </head>
 
-<body class="chisiamo">
-  <header>
-    <img src="assets/images/logo.png" alt="Logo scuola">
-    <input type="checkbox" class="btnMenu" id="btnMenu">
-    <label for="btnMenu" class="icoMenu"><i class="fas fa-ellipsis-h"></i></label>
+<body>
+
+<header>
+    <div id="logo">
+        <a href="index.html" title="Vai alla home page">
+            <img src="assets/images/logo.png" alt="Logo Epicode" width="130" height="40">
+        </a>
+    </div>
+    <label for="menuButton" id="menuMobile"><i class="lni lni-more-alt"></i></label>
+    <input type="checkbox" id="menuButton" />
     <nav>
-
-     <ul>
-        <li><a class="buttongrey" href="index.html">Home</a></li>
-        <li><a class="buttongrey" href="chi-siamo.html">Chi siamo</a></li>
-        <li><a class="buttongrey" href="contatti.html">Contatti</a></li>
-        <li><a class="buttonblu" href="#">Registrati</a></li>
-     </ul>
-     
+        <ul>
+            <li><a href="index.html" title="Vai alla homepage">Home</a></li>
+            <li><a href="chi-siamo.html" title="Descrizione e mission di Epicode"> Chi siamo</a></li>
+            <li><a href="contatti.html" title="Contattaci per info sui corsi">Contatti</a></li>
+            <li><a href="registrati.html" class="buttonStyle" title="Registrati per accedere all'area riservata">Registrati</a></li>
+        </ul>
     </nav>
-  </header>
-  <main>
-    <section class="wwa">
+</header>
+
+<hr>
+
+<main>
+  <section id="profilo">
+    <div class="profiloIntro">
       <h1>We are coder</h1>
-      <p>Epicode school nasce con l'obiettivo di rivoluzionare la formazione in ambito tech. Vogliamo essere il movimento dei creatori digitali che il mercato richiede: formiamo, forniamo e aggiorniamo specialisti con la missione di trasformare le aziende dall'interno e offrire ai giovani sicure prospettive di carriera. Siamo a Roma ma arriviamo in tutta Italia, per creare la community che rivoluzionerà il mondo del lavoro</p>
-    </section>
-
-    <div class="wearecoder">
-      <div class="imgwwa">
-        <img src="assets/images/foto1.jpg" alt="">
-       <p>Investiamo sul talento e vogliamo dimostrartelo: effettua un colloquio di selezione per accedere ad una delle 5 borse di studio disponibili. </p>
+       <p>Epicode School nasce con l’obiettivo di rivoluzionare la formazione in ambito tech. Vogliamo essere il
+         movimento dei creatori digitali che il mercato richiede: formiamo, forniamo e aggiorniamo specialisti con la missione di trasformare le aziende dall’interno e offrire ai giovani sicure prospettive di carriera. Siamo a Roma ma arriviamo in tutta Italia, per creare la community che rivoluzionerà il mondo del lavoro.</p>
+    </div>
+    <div class="profiloBox">
+      <div>
+        <img src="assets/images/foto1.jpg" width="640" height="416">
+        <p>Investiamo sul talento e vogliamo dimostrartelo: effettua un colloquio di selezione per accedere ad una delle 5 borse di studio disponibili.</p>
       </div>
-
-      <div class="imgwwa">
-        <img src="assets/images/foto2.jpg" alt="">
-        <p>Riceverai subito l'esito, quindi ti consigliamo di contattarci prima che le borse di studio si esauriscano: contattaci e candidati subito. </p>
+      <div>
+        <img src="assets/images/foto2.jpg" width="640" height="416">
+        <p>Riceverai subito l’esito, quindi ti consigliamo di contattarci prima che le borse di studio si esauriscano: contattaci e candidati subito</p>
       </div>
-  </div>
+    </div>
+  </section>
 
-    <div class="tablecont">
-    <h2>Prezzi dei corsi</h2>
+  <section id="prezzi">
     <table>
-      
+      <caption>Prezzi dei corsi</caption>
       <thead>
         <tr>
-        <th>Base 500&euro;</th>
-        <td> 30 ore di formazione</td>
+          <th>Base<br>500&euro; <span>+iva</span></th>
+          <th>Intermedio<br>1000&euro; <span>+iva</span></th>
+          <th>Avanzato<br>2000&euro; <span>+iva</span></th>
         </tr>
-        
-       
-        <tr>
-        <th>Intermedio 1000&euro;</th>
-        <td>Tutte le caratteristiche del corso base</td>
-        </tr>
-        <tr>
-        <th>Avanzato 2000&euro;</th>
-        <td>Tutte le caratteristiche del cosrso intermedio</td>
-      </tr>
       </thead>
       <tbody>
         <tr>
-        <th>Base 500&euro;</th>
-        <td>Supporto post corso</td>
+          <td title="Base 500&euro;">30 ore di formazione</td>
+          <td title="Intermedio 1000&euro;">Tutte le caratteristiche del corso base</td>
+          <td title="Avanzato 2000&euro;">Tutte le caratteristiche del corso intermedio</td>
         </tr>
         <tr>
-        <th>Intermedio 1000&euro;</th>
-        <td>Rateazione in 12 mesi</td>
+          <td title="Base 500&euro;">Supporto post corso</td>
+          <td title="Intermedio 1000&euro;">Rateazione in 12 mesi</td>
+          <td title="Avanzato 2000&euro;">Video registrazioni</td>
         </tr>
         <tr>
-        <th>Avanzato 2000&euro;</th>
-        <td>video registrazioni</td>
+          <td title="Base 500&euro;">Stage aziendale</td>
+          <td title="Intermedio 1000&euro;">Ripetizione del corso</td>
+          <td title="Avanzato 2000&euro;">Supporto 24h dedicato</td>
         </tr>
       </tbody>
-      <tfoot>
-        <tr>
-        <th>Base 500&euro;</th>
-        <td>Stage aziendale</td>
-        </tr>
-        <tr>
-        <th>Intermedio 1000&euro;</th>
-        <td>Ripetizione del corso</td>
-        </tr>
-        <tr>
-        <th>Avanzato 2000&euro;</th>
-        <td>Supporto 24h dedicatp</td>
-        </tr>
-        
-      </tfoot>
-      
-      </table>
-  </div>
-  </main>
-  <footer>
-    <div class="piedipagina">
-    <div>
-      <h3> Chi siamo</h3>
-      <p>Epicode School nasce con l'obiettivo di rivoluzionare la formazione in ambito tech.</p>
-    </div>
-    <div>
-      <h3> Ti piace ciò che vedi? <br> Condividilo con i tuoi amici!</h3>
-      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-      <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
-    </div>
-    <div>
-      <h3>Iscriviti alla nostra newsletter</h3>
-      <form action="post">
-        <fieldset>
-          <input  type="email" name="email" id="email" required> 
-          <button class="ridotto" type="submit"> <strong>Va bene!</strong> </button>
-        </fieldset>
-      </form>
-    </div>
-  </div>
-    <p id="copy">&copy; 2021 Epicode Web Developer school - Via appia 1, 00100 Roma  (RM)  - Tel . 06-12345678</p>
-  </footer>
+    </table>
+  </section>
+</main>
+
+<hr>
+
+<footer>
+  <section id="collegamenti">
+      <div>
+          <h2>Chi siamo</h2>
+          <p>Epicode School nasce con l’obiettivo di rivoluzionare la formazione in ambito tech.</p>
+      </div>
   
+      <div>
+          <h2>Ti piace ciò che vedi? Condividilo con i tuoi amici!</h2>
+          <nav>
+              <ul>
+                  <li><a href="https://facebook.com/" target="_blank"><i class="lni lni-facebook-original"></i></a></li>
+                  <li><a href="https://www.linkedin.com/" target="_blank"><i class="lni lni-linkedin-original"></i></a></li>
+                  <li><a href="https://instagram.com/" target="_blank"><i class="lni lni-instagram-filled"></i></a></li>
+              </ul>
+          </nav>
+      </div>
+  
+      <div>
+          <h2>Iscriviti alla nostra newsletter</h2>
+          
+          <form method="POST" action="elabora-codice.php">
+              <fieldset>
+                  <input type="email" name="email" id="email" required>
+                  <button type="submit" class="buttonStyle">Va bene!</button>
+              </fieldset>
+          </form>
+      </div>
+  </section>
+  <div id="copyright">
+      <address>&copy; 2021 Epicode Web Developer school - Via Appia 1, 00100 Roma (RM) - Tel. 06-12345678</address>    
+  </div>
+</footer>
+
 </body>
 
 </html>
