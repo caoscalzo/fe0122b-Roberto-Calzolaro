@@ -1,0 +1,68 @@
+@import 'variabili.scss';
+@import 'bottoni.scss';
+
+
+h1{
+    color: $colori-titoli;
+    font-size: $grandezza-titoli;
+    text-align: $posizione-titoli;
+    font-style: $font-titoli;
+}
+
+body{
+    background-image: $sfondo-principale;
+    background-size: $dimensione-sfondo;
+    
+}
+.container{
+    width: $dimensione-contenitore;
+    font-weight: $carattere-container;
+
+.btn-primary, .btn-secondary{
+        border: $bordo;
+        width: $larghezza;
+        padding: $padding;
+        margin: $margine-bottoni;
+        background-color: $sfondo-bottoni;
+        position: $posizione-titoli;
+        display:$blocco-schermo;
+        margin:$centro-div;
+        text-align: $posizione-titoli;
+        &:hover{
+            background-color: $passaggio-mouse;
+        }
+        
+    }
+ul{
+    text-align: $posizione-titoli;
+    background-color: $sfondo-link;
+    border-radius: $bordo-link;
+}
+li{
+    display: $direzione;
+    padding: $spazio-link;  
+}
+
+p{
+    background-color: $sfondo-link;
+    border-radius: $bordo-link;
+    width: $bordo-link;
+    margin: $centro-div;
+    margin-bottom: $spazio-link;
+}
+
+img{
+    margin-top: $spazio-link;
+    display:$blocco-schermo;
+    margin:$centro-div;
+
+}
+
+}
+
+a{
+    text-decoration: $no-decorazioni;
+}
+
+
+

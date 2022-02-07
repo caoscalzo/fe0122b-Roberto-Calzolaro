@@ -1,0 +1,45 @@
+h1 {
+  color: red;
+  font-size: 3rem;
+  text-align: center;
+  font-style: "Supermercado One"; }
+
+body {
+  background-image: url(https://www.vglobale.it/wp-content/uploads/2018/08/sabbia-deserto-spiagge.jpg);
+  background-size: cover; }
+
+.container {
+  width: 100%;
+  font-weight: bold; }
+  .container .btn-primary, .container .btn-secondary {
+    border: solid 1px red;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    position: center;
+    display: block;
+    margin: 50px auto;
+    text-align: center; }
+    .container .btn-primary:hover, .container .btn-secondary:hover {
+      background-color: yellow; }
+  .container ul {
+    text-align: center;
+    background-color: #e3ee81;
+    border-radius: 60%; }
+  .container li {
+    display: inline-block;
+    padding: 50px; }
+  .container p {
+    background-color: #e3ee81;
+    border-radius: 60%;
+    width: 60%;
+    margin: 50px auto;
+    margin-bottom: 50px; }
+  .container img {
+    margin-top: 50px;
+    display: block;
+    margin: 50px auto; }
+
+a {
+  text-decoration: none; }

@@ -1,0 +1,15 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "Roberto",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^17.4.0",
+    "node-sass": "^7.0.1"
+  }
+}
