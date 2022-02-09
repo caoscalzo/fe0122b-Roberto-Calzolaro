@@ -1,0 +1,91 @@
+body {
+  background-image: url(https://www.artemedialab.it/wp-content/uploads/2019/04/immagini-sfondo-1-700x400.jpg);
+  background-size: cover; }
+
+p {
+  font-size: 1.5rem;
+  font-style: "Supermercado One";
+  color: white;
+  text-align: left; }
+
+h1 {
+  text-align: center;
+  color: red; }
+
+h2 {
+  text-align: center;
+  color: green; }
+
+header {
+  width: 100%; }
+
+nav ul {
+  display: flex; }
+  nav ul nav ul li {
+    margin: 20px;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    list-style: none; }
+    nav ul nav ul li:hover {
+      padding: 15px;
+      background-color: green; }
+
+#introduction {
+  width: 100%; }
+
+.warning-button {
+  margin: 0 auto;
+  display: block; }
+  .warning-button:hover {
+    background-color: red;
+    padding: 20px; }
+
+nav ul li a {
+  margin: 20px;
+  background-color: white; }
+
+a {
+  background-color: yellow;
+  text-decoration: none; }
+
+input, textarea {
+  padding: 10px;
+  display: block;
+  margin: 10px auto 10px auto; }
+
+form {
+  width: 100%; }
+
+fieldset {
+  color: white; }
+
+.introduction, .promo {
+  background-color: lightgrey;
+  font-weight: bold; }
+
+.promo {
+  background-color: goldenrod;
+  font-weight: normal; }
+
+#main {
+  display: flex;
+  justify-content: center; }
+
+ul {
+  text-decoration: none;
+  padding: 10px;
+  list-style: none;
+  margin-top: 70px;
+  width: auto; }
+
+#sidebar ul {
+  width: 100px;
+  height: 200px; }
+
+#sidebar ul li {
+  margin-top: 20px;
+  background-color: yellowgreen;
+  height: 40px; }
+
+/*mediaqueries*/

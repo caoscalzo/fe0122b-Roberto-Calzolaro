@@ -1,0 +1,146 @@
+$font-principale: 'Supermercado One';
+$grandezza-p: 1.5rem;
+$colore-p: rgb(255, 255, 255);
+$posizione-h1: center;
+$posizione-p: left;
+$back-img: url(https://www.artemedialab.it/wp-content/uploads/2019/04/immagini-sfondo-1-700x400.jpg);
+$grandezza-back-img: cover;
+$color-titoli: red;
+$colore-sotto-titoli: green;
+$posizione-centrale: 0 auto;
+$largezza-contenitori: 100%;
+$distanze-orizzontali:20px;
+$distanze-verticali:10px;
+$colore-a:yellow;
+$colore-article: lightgrey;
+
+
+
+body{
+    background-image: $back-img;
+    background-size:$grandezza-back-img ;
+    
+}
+
+p{
+    font-size: $grandezza-p;
+    font-style: $font-principale;
+    color: $colore-p;
+    text-align: $posizione-p;
+}
+
+h1{
+    text-align: $posizione-h1;
+    color: $color-titoli;
+}
+
+h2{
+    text-align: $posizione-h1;
+    color: $colore-sotto-titoli;
+}
+
+header{
+    width: $largezza-contenitori;
+}
+
+nav ul{
+    display: flex;
+    nav ul li{
+        margin: 20px ;
+        text-decoration: none;
+        background-color: $colore-p;
+        padding: $distanze-verticali;
+        list-style: none;
+        &:hover{
+            padding: 15px;
+            background-color: $colore-sotto-titoli;
+        }
+    }
+}
+
+#introduction{
+    width: $largezza-contenitori;
+}
+.warning-button{
+    &:hover{
+    background-color: red;
+    padding: $distanze-orizzontali;
+}
+margin: $posizione-centrale;
+display: block;
+}
+nav ul li a{
+    margin: 20px;
+    background-color: $colore-p;
+
+    
+}
+a{
+    background-color: $colore-a;
+    text-decoration: none;
+
+}
+
+input, textarea{
+    padding: $distanze-verticali;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+form{
+    width:$largezza-contenitori;
+}
+
+fieldset{
+    color: $colore-p;
+}
+
+.introduction{
+    background-color: $colore-article;
+    font-weight: bold;
+    }
+    .promo{
+        background-color: goldenrod;
+        font-weight: normal;
+        @extend .introduction;
+    }
+
+    #main{
+        display: flex;
+        justify-content: center;
+    }
+
+    ul{
+        text-decoration: none;
+        padding: $distanze-verticali;
+        list-style: none;
+        margin-top: 70px;
+        width: auto;
+    }
+
+    #sidebar ul {
+        width: 100px;
+        height: 200px;
+       
+    }
+    #sidebar ul li{
+        margin-top: 20px;
+        background-color: yellowgreen;
+        height: 40px;
+    }
+   
+
+
+/*mediaqueries*/
+$screen-sm: 500px;
+$screen-lg: 800px;
+
+@mixin small {
+    @media(min-widht:#{$screen-lg})
+    
+}
+
+
+
+
+
