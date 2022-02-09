@@ -1,0 +1,56 @@
+.h1, .h2{
+    text-align: center;
+}
+
+.es1{
+    background-color: blue;
+    color:white;
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.es2{
+    background-color: yellow;
+    color: black;
+    padding: 3px;
+    text-align: center;
+}
+
+.es3{
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
+.es4{
+    background-color: red;
+    padding: 3px;
+    color: white;
+}
+
+.col-md-6{
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    border-right:1px solid black ;
+
+}
+.es5{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    
+
+}
+
+
+.es6{
+    padding: 3px;
+    color: white;
+    background-color: white;
+
+}
+
+.col-md-3{
+    background-color: black;
+
+}

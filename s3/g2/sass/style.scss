@@ -135,10 +135,7 @@ fieldset{
 $screen-sm: 500px;
 $screen-lg: 800px;
 
-@mixin small {
-    @media(min-widht:#{$screen-lg})
-    
-}
+
 
 
 
