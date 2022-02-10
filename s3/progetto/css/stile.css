@@ -1,0 +1,51 @@
+html {
+  font-style: "Jua", sans-serif; }
+
+.bi {
+  color: #f3ace1; }
+
+li {
+  margin-right: 40px;
+  text-align: center; }
+
+#palermo {
+  width: 130px;
+  height: 100px; }
+
+li p {
+  color: #fde57b; }
+
+#nav {
+  box-shadow: 5px 5px #f3ace1; }
+
+h4, h5 {
+  color: #f3ace1; }
+
+.card-title {
+  color: #f3ace1; }
+
+h1 {
+  background-color: #f3ace1;
+  color: white;
+  text-align: center;
+  margin: 20px 0 20px 0; }
+
+.text-center {
+  color: white;
+  margin-top: 20px; }
+
+.container-fluid {
+  background-color: #f3ace1;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.maglia {
+  color: white; }
+
+.carousel-item {
+  margin-top: 50px; }
+
+.calcia {
+  text-align: center;
+  display: block;
+  margin: 10px auto; }
