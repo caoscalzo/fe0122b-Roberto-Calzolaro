@@ -35,7 +35,6 @@ h1 {
   margin-top: 20px; }
 
 .container-fluid {
-  background-color: #f3ace1;
   margin-top: 50px;
   margin-bottom: 50px; }
 
@@ -49,3 +48,12 @@ h1 {
   text-align: center;
   display: block;
   margin: 10px auto; }
+
+.text-muted {
+  margin-bottom: 30px; }
+
+h1, form, h2 {
+  background-color: #f3ace1; }
+
+form {
+  padding: 50px; }
