@@ -2,7 +2,7 @@ html {
   font-style: "Jua", sans-serif; }
 
 .bi {
-  color: #f3ace1; }
+  color: rgba(255, 147, 192, 0.979); }
 
 li {
   margin-right: 40px;
@@ -16,19 +16,20 @@ li p {
   color: #fde57b; }
 
 #nav {
-  box-shadow: 5px 5px #f3ace1; }
+  box-shadow: 5px 5px rgba(255, 147, 192, 0.979); }
 
 h4, h5 {
-  color: #f3ace1; }
+  color: rgba(255, 147, 192, 0.979); }
 
 .card-title {
-  color: #f3ace1; }
+  color: rgba(255, 147, 192, 0.979); }
 
-h1 {
-  background-color: #f3ace1;
+h1, .h2 {
+  background-color: rgba(255, 147, 192, 0.979);
   color: white;
   text-align: center;
-  margin: 20px 0 20px 0; }
+  margin: 20px 0 20px 0;
+  font-weight: bold; }
 
 .text-center {
   color: white;
@@ -52,8 +53,26 @@ h1 {
 .text-muted {
   margin-bottom: 30px; }
 
-h1, form, h2 {
-  background-color: #f3ace1; }
+form {
+  background-color: pink;
+  background-color: rgba(255, 147, 192, 0.979); }
 
 form {
   padding: 50px; }
+
+.form-select {
+  text-align: center;
+  display: block;
+  width: 0 auto; }
+
+.h2 {
+  font-style: italic; }
+
+.st-form {
+  text-align: center;
+  font-style: italic; }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2; }

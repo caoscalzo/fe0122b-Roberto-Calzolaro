@@ -199,40 +199,64 @@
             </button>
         </div>
 
-        <!-- form -->
+        
 
-        <section class="container-fluid">
-            <h2>Vuoi collaborare con noi?</h2>
-                <p>Mandaci una email con delle tue fotografie e una piccola descrizione di te stesso.</p>
+        
+ 
+
+        <!-- form -->
+        <div id="shadow">
+            <section class="container-fluid">
+                <div class="h2" > Vuoi anche tu far parte del nostro team?</div>
+                <p class="st-form">Inserisci i tuoi dati e il tuo indirizzo e-email ed entra a far parte della squadra
+                    più promettente della serie A</p>
                 <form action="elaborato.php">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Indirizzo email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tuoindirizzoemail@gmail.com">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label"></label>
-                <div class="mb-3">
-                    <label for="formFileMultiple" class="form-label">Carica qui le tue immagini</label>
-                    <input class="form-control" type="file" id="formFileMultiple" multiple>
-                  </div>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"> </textarea>
-                <button type="submit" class="btn btn-warning calcia">Calcia!</button>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Inserisci la tua e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Il tuo nome"
+                                        aria-label="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text"  class="form-control" placeholder="Il tuo cognome"
+                                        aria-label="Last name">
+                                </div>
+                            </div>
+                        </div>
+                        <textarea class="form-control"  id="exampleFormControlTextarea1" rows="3">Vorrei entrate a far parte del vostro team perchè: </textarea>
+                        <button type="submit" class="btn btn-warning calcia">Calcia!</button>
                 </form>
-              </div>
+        </div>
         </section>
+        </div>
     </main>
 
 
     <!-- footer -->
-<div>
-    <footer>
+    <div>
+
         <footer class="bg-light text-center text-lg- bg-dark">
             <div class="text-center p-3">
                 <em>&copy;Palermo FC from 1900 to the rest of the eart's life</em>
+                <p class="app-footer">
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-cart"></i>
+
+                </p>
+                
+
             </div>
         </footer>
-    </footer>
-</div>
+
+    </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
