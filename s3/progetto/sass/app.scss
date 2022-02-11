@@ -78,13 +78,12 @@ h1{
 
 form{
     background-color: pink;
-    background-color: contrasto($testo-nav);}
+    background-color: contrasto($testo-nav);
+    padding: 50px;
+}
 
 
     
-form{
-    padding: 50px;
-}
 
 
 .form-select{
@@ -113,13 +112,20 @@ header{
 
 
 @media screen and (max-width: 992px) {
-    .img-carosel{
-        width: 500px;
-        height: 600px;
-    }
-
+    
     .space-around{
         margin-bottom: 20px;
     }
-    
+
+    .carosello{
+        margin: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img-carosel{
+        height: 600px;
+        
+    }
+
 }
