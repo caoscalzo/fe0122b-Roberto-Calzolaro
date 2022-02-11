@@ -75,9 +75,13 @@ header {
 @media screen and (max-width: 992px) {
   .space-around {
     margin-bottom: 20px; }
+  .iscrizione {
+    margin: 0 20px 0 20px; }
   .carosello {
     margin: 30px; } }
 
 @media screen and (min-width: 992px) {
   .img-carosel {
-    height: 600px; } }
+    height: 600px; }
+  .iscrizione {
+    margin: 0 200px 0 200px; } }
