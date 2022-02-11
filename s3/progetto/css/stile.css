@@ -50,9 +50,6 @@ h1, .h2 {
   display: block;
   margin: 10px auto; }
 
-.text-muted {
-  margin-bottom: 30px; }
-
 form {
   background-color: pink;
   background-color: rgba(255, 147, 192, 0.979); }
@@ -76,3 +73,10 @@ header {
   position: sticky;
   top: 0;
   z-index: 2; }
+
+@media screen and (max-width: 992px) {
+  .img-carosel {
+    width: 500px;
+    height: 600px; }
+  .space-around {
+    margin-bottom: 20px; } }
