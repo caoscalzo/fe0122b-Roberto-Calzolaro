@@ -1,0 +1,12 @@
+main{
+    background-color: black;
+}
+
+h1, p{
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+}
