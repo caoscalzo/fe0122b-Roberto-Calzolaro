@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+p{
+    text-align: center ;
+}
+
+button{
+    margin-top: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+form{
+    background-color: yellow;
+    padding: 20px;
+    
+}
+input{
+    margin: 20px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stile.css">
+</head>
+
+<body>
+    <h1>Mia presentazione</h1>
+    <p> Vorresti leggere qualcosa su di me?</p>
+
+
+    <br>
+
+    <button onclick="changeColor('white');">non voglio leggerlo</button>
+    <button onclick="changeColor('black');">voglio leggerlo</button>
+
+
+
+    <script src="js/myscript.js"></script>
+
+
+
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        Surname:<input type="text" name="fname">
+        Email:<input id="mail" type="email">
+
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+    <p>Clicca per vedere l'orario.</p>
+
+    <button onclick="displayDate()">Che ora è?</button>
+
+    <p id="demo"></p>
+
+
+
+</body>
+
+</html>
