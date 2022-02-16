@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input onkeydown="console.log(pensionamento())" type="number" id="eta">
+    <p id="risultato"></p>
+    <button type="button" onclick="document.getElementById('risultato').innerHTML =  (pensionamento())"> ti mancano..</button>
+
+
+
+
+
+<script>
+
+    function pensionamento() {
+        var eta = document.getElementById("eta").value;
+        var etaPensione = 65;
+    
+        return (etaPensione - eta);
+    
+    }
+    
+
+</script>
+<script src="js/myscript.js"></script>
+
+</body>
+
+</html>
