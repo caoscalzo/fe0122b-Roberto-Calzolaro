@@ -1,3 +1,4 @@
+
 function prendiDato(elemento){
     let display=document.getElementById("display")
     let numero = elemento.id
@@ -17,3 +18,6 @@ function totale(){
     let display = document.getElementById("display")
     display.value = eval(display.value)
 }
+
+
+//alert("CIao! Benvenuto sulla mia calcolatrice!");

@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="css/stile.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
 
+<h1>La Mia Calcolatrice</h1>
 
     <div id="calcolatrice">
         <input type="text" id="display" readonly="true">
+
         <div id="tastierino">
 
 
@@ -27,9 +29,6 @@
             <div id="*" onclick="prendiDato(this)">x</div>
             <div id="+" onclick="prendiDato(this)">+</div>
             <div id="/" onclick="prendiDato(this)">/</div>
-
-
-
 
             <div id="1" onclick="prendiDato(this)">1</div>
             <div id="2" onclick="prendiDato(this)">2</div>
@@ -43,7 +42,7 @@
             <div id="0" onclick="prendiDato(this)">0</div>
             <div id="." onclick="prendiDato(this)">.</div>
             <div id="c" onclick="resetCalcolatrice()">AC</div>
-            <div id= "result"onclick="totale()">=</div>
+            <div id="result" onclick="totale()">=</div>
 
 
 
