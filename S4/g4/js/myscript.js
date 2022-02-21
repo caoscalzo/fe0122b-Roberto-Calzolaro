@@ -46,13 +46,15 @@ console.log(persone);
 console.log(variabileShift);
 
 
+function somma(){
 var persone = [
   1,
   2,
   3,
   4,
-    
+  5
 ];
+persone[2] + persone[4]
 
-
+}
 
