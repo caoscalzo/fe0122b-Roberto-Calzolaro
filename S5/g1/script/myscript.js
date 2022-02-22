@@ -46,12 +46,12 @@ function time(){
 }
 
 */
-
+//questa funzione è con setInterval
 function time(){
 let data = new Date();
-
 document.getElementById("clock").innerHTML = data.toLocaleTimeString();
 }
+
 setInterval(time,1000);
 
 
