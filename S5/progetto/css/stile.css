@@ -1,4 +1,27 @@
-
 .pointer{
     cursor: pointer;
+}
+
+nav{
+    background: rgb(180,58,94);
+    background: linear-gradient(22deg, rgba(180,58,94,1) 26%, rgba(228,39,51,1) 58%, rgba(252,176,69,1) 84%, rgba(253,29,29,0.9700922605370274) 100%);
+}
+
+.navbar-brand{
+    color: lightcyan;
+    text-shadow: 1px 1px rgb(70, 69, 56); 
+    text-align: center;
+  
+}
+
+#testo{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+}
+
+
+#lista{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+   
 }
