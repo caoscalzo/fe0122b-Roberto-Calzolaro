@@ -14,6 +14,7 @@ $(()=>{
        }
 
        let immaginiCliccate= []
+       let contatore = 0
 
        $('.images').click(function(){
 
@@ -31,7 +32,7 @@ $(()=>{
             let infoImmagine = {
                 id: imgId,
                 src: imgSrc
-            }
+            };
             immaginiCliccate.push(infoImmagine)
 
             if(immaginiCliccate.length==2){
@@ -39,6 +40,7 @@ $(()=>{
                 if(immaginiCliccate[0].src == immaginiCliccate[1].src){
                     $('#'+ immaginiCliccate[0].id).css('cursor','no-drop')
                     $('#'+ immaginiCliccate[1].id).css('cursor','no-drop')
+                    contatore++
                     immaginiCliccate=[]
 
 
@@ -48,11 +50,16 @@ $(()=>{
                         $('#'+ immaginiCliccate[1].id).hide()
                         immaginiCliccate=[]
                     },300)
-                }
+                };
 
-            }
+            };
 
+           };
+           if (contatore == 8){
+               $("#win").text("Winner!")
            }
 
-       })
-    })
+       });
+
+      
+    });

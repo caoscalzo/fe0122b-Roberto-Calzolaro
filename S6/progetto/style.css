@@ -2,7 +2,10 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Montserrat Alternates', sans-serif;
+    background-color: red;
 }
+
+
 
 .rotea{
     animation-name: rotea;
@@ -42,7 +45,7 @@ h2 {
 }
 
 .images {
-    background: rgba(0,218,219,1);
+    background: rgb(0, 0, 0);
     width: 140px;
     height: 140px;
     margin: 5px;
@@ -51,6 +54,7 @@ h2 {
     border-radius: 10px;
     position: relative;
 }
+
 
 .images img {
     padding: 5px;
@@ -75,4 +79,13 @@ h2 {
     font-weight: bold;
     border: none;
     cursor: pointer;
+}
+
+
+#win{
+    color: green;
+    font-size: 50px;
+}
+.numclicks{
+    color:white;
 }
