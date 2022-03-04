@@ -1,0 +1,109 @@
+body{
+   font-family: 'Press Start 2P', cursive;
+   background-color: #3535ec;
+   cursor: pointer;
+}
+
+h1,h2{
+    text-align: center;
+    font-size: 6em;
+    color: rgb(252, 252, 88);
+    text-shadow: 4px 10px red;  
+}
+h2{
+    font-size: 2em;
+    text-shadow: 4px 4px red;  
+}
+ h5{
+    text-align: center;
+    text-shadow: 2px 2px red;  
+    color: white;
+    
+
+ }
+
+
+li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+
+
+}
+a{
+text-decoration: none;
+color: white;
+text-shadow:2px 2px red ;
+
+}
+
+hr {
+    width: 90%;
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #ff0000 inset;
+    border-top: 1px solid white;
+  }
+
+  a:hover{
+      font-size: 2.2rem;
+      color: yellow;
+
+  }
+
+  i{
+      color: white;
+      text-shadow: 1px 1px red;
+      margin-right: 10px;
+  }
+  p{
+   color: white;
+   font-size: 0.8rem;
+   text-align: center;
+   margin-top: 40px;
+
+  }
+  :root {
+    --card-size: 150px;
+}
+
+#grid {
+    height: calc(var(--card-size) * 3);
+    width: calc(var(--card-size) * 4);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: var(--card-size);
+    height: var(--card-size);
+    background-image: url('../img/back.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    cursor: pointer;
+}
+  
+.alien {
+    background-image: url('../img/alien.png');
+}
+
+.bug {
+    background-image: url('../img/bug.png');
+}
+
+.duck {
+    background-image: url('../img/duck.png');
+}
+
+.rocket {
+    background-image: url('../img/rocket.png');
+}
+
+.spaceship {
+    background-image: url('../img/spaceship.png');
+}
+
+.tiktac {
+    background-image: url('../img/tiktac.png');
+}
