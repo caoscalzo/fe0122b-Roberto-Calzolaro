@@ -1,10 +1,10 @@
 
- var elementiSalvati = localStorage.getItem('utenti');
- var dataBase = elementiSalvati == null ? [] : JSON.parse(elementiSalvati);
- console.log(dataBase)
+var elementiSalvati = localStorage.getItem('utenti');
+var dataBase = elementiSalvati == null ? [] : JSON.parse(elementiSalvati);
+console.log(dataBase)
 
 
-dataBase.forEach( function(e) {
+dataBase.forEach(function (e) {
 
     var tabella = document.querySelector("#tab")
     var tr = document.createElement("tr")
@@ -19,20 +19,22 @@ dataBase.forEach( function(e) {
     tr.append(td, td1, td2, td3)
     td.innerHTML = e.username
     td1.innerHTML = e.email
-    td2.innerHTML=e.password
-    td3.innerHTML= ("elimina")
+    td2.innerHTML = e.password
+    td3.innerHTML = ("elimina")
     td3.style.backgroundColor = "red"
+    td3.setAttribute("data-email", e.email)
 
 
-    td3.addEventListener("click", ()=>{
+    td3.addEventListener("click",function() {
+        var deleteEmail = this.getAttribute("data-email")
         tr.remove()
-       elimina()
+        elimina(deleteEmail)
     })
 });
 
-function elimina(elemento){
-    var indice = dataBase.indexOf(elemento)
-    dataBase.splice(indice,1)
+function elimina(email) {
+    var indice = dataBase.findIndex(u =>u.email == email)
+    dataBase.splice(indice, 1)
     localStorage.setItem("utenti", JSON.stringify(dataBase))
 }
 

@@ -9,6 +9,7 @@ function creaTabella() {
                 var cella = document.createElement('td')
                 cella.innerText = elemento[prop]
                 riga.append(cella)
+                
             }
         }
     })
