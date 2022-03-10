@@ -1,11 +1,5 @@
-$(()=>{
 
-/*var beepThree = $("#soundLi")[0];
-$("#sound")
-	.mouseenter(function() {
-		beepThree.pause();
-		beepThree.play();
-	});*/
+
 
 
 const grid = document.querySelector('#grid');
@@ -74,4 +68,4 @@ function checkForWin() {
     }
 }
 
-})
+
