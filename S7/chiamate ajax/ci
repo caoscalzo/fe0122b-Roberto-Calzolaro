@@ -1,4 +1,22 @@
-//ciclo for in
+fetch(
+            'https://sofin.wp-admin.it/public/api/v1/user', 
+            {
+                method: 'POST', // or 'PUT'
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    name : 'Nunzio',
+                    lastname : 'Buio',
+                    email : 'tesjhfsdukjy@test.com',
+                    role_id : 1,
+                    password : 'sfdafsdafsda'
+                }),
+     
+
+     ----------------------------------------------------------------
+
+     //ciclo for in
 fetch('https://sofin.wp-admin.it/public/api/v1/user')
     .then(response => response.json())
     .then(data => {
@@ -13,10 +31,9 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
             cancella.classList.add("delete")
             cancella.setAttribute("data-id", elemento.id)//vai a prendere l'id dell'emento che stai ciclando
 
-            let modifica = document.createElement("a")
+            let modifica = document.createElement("button")
             modifica.innerText = "Modifica"
             modifica.classList.add("modifica")
-            modifica.href = "/form.html?id=" + elemento.id
 
 
 
@@ -31,7 +48,6 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
                     let contenuto = typeof elemento[prop] == "object" ? elemento[prop].nicename : elemento[prop]
                     let cella = document.createElement('td')
                     cella.innerText = contenuto
-
                     riga.append(cella)
                     riga.append(cancella)
                     riga.append(modifica)
@@ -53,6 +69,6 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
             })
         })
     })
-    document.getElementById("add").onclick = function () {
+document.getElementById("add").onclick = function () {
     location.href = "form.html"
 }
