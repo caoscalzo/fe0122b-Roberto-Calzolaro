@@ -54,5 +54,5 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
         })
     })
     document.getElementById("add").onclick = function () {
-    location.href = "form.html"
+    location.href = "formAggiungi.html"
 }

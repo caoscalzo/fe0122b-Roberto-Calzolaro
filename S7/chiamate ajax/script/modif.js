@@ -6,13 +6,13 @@ fetch(
     .then(response => response.json())
     .then(data => {
         var campi = data
-        var utente = campi.find(u => u.id == id)// cerca data dentro campi e vedi se id è corrispondente a  id dell'url
 
+        var utente = campi.find(u => u.id == id)// cerca data dentro campi e vedi se id è corrispondente a  id dell'url
 
         document.querySelector("#nome").value = utente.name
         document.querySelector("#cognome").value = utente.lastname
         document.querySelector("#email").value = utente.email
-        document.querySelector("#password").value = utente.role_id
+        document.querySelector("#password").value = utente.password
 
         document.querySelector("#invia").addEventListener("click", function (e) {
             e.preventDefault()
@@ -20,7 +20,7 @@ fetch(
             let nome = document.querySelector("#nome").value
             let cognome = document.querySelector("#cognome").value
             let email = document.querySelector("#email").value
-            let ruolo = document.querySelector("#password").value
+            let psw = document.querySelector("#password").value
 
             fetch(
                 'https://sofin.wp-admin.it/public/api/v1/user/' + id,
@@ -33,13 +33,13 @@ fetch(
                         name: nome,
                         lastname: cognome,
                         email: email,
-                        role_id: ruolo
+                        password: psw
                     })
                 })
                 .then(response => response.json())
                 .then(data => {
                     console.log(data)
-                    alert("Utente aggiunto")
+                    alert("Utente Modificato")
                     setTimeout(function () {
                         window.location.href = "index.html"
                     }, 1000);
