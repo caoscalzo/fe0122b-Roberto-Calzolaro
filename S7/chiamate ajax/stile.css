@@ -14,15 +14,22 @@ body {
 .delete{
     background-color: red;
     padding: 10px;
+    color: white;
+
 }
 .modifica{
     background-color: blue;
     padding: 10px;
     margin: 10px;
+    color: white;
+    text-decoration: none;
+
+
 }
 .aggiungi{
     background-color: green;
+    color: white;
     padding: 10px;
-    display: block;
-    margin: 10px  auto;
+    margin: 10px;
+    text-decoration: none;
 }

@@ -19,6 +19,10 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
             modifica.href = "/form.html?id=" + elemento.id
 
 
+            let aggiungi = document.createElement("a")
+            aggiungi.innerText = "Aggungi"
+            aggiungi.classList.add("aggiungi")
+            aggiungi.href = "/formAggiungi.html" 
 
             let riga = document.createElement('tr');
 
@@ -35,6 +39,8 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
                     riga.append(cella)
                     riga.append(cancella)
                     riga.append(modifica)
+                    riga.append(aggiungi)
+
 
                 }
             }
@@ -53,6 +59,3 @@ fetch('https://sofin.wp-admin.it/public/api/v1/user')
             })
         })
     })
-    document.getElementById("add").onclick = function () {
-    location.href = "formAggiungi.html"
-}
