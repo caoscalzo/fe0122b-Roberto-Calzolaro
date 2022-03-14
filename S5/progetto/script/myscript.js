@@ -21,7 +21,7 @@ document.querySelector('#add').addEventListener('click',function()
 })
 
 function salva(testo){
-    let elementiSalvati = localStorage.getItem('lista',testo)
+    let elementiSalvati = localStorage.getItem('lista')
     let db = elementiSalvati == null ? [] : JSON.parse(elementiSalvati)
     db.push(testo)
     localStorage.setItem('lista',JSON.stringify(db))
