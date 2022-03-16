@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(218, 213, 213);
+}
+.tabella {
+    position: relative;
+    margin: 5%;
+    border-style: double;
+    border-color: aquamarine;
+    padding: 5%;
+    background-color: azure;
+    font-size: 13px;
+}
+
+.delete{
+    background-color: red;
+    padding: 10px;
+    color: white;
+
+}
+.modifica{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+
+
+}
+.aggiungi{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
