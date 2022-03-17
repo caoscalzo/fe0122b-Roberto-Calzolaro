@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(163, 224, 144);
+    background-image: url(https://www.luxurybynature.nl/Files/4/13000/13520/ProductPhotos/MaxContent/1379692301.jpg);
 }
 .tabella {
     position: relative;
@@ -7,6 +7,13 @@ body {
     border-style: double;
     border-color: green;
     padding: 5%;
-    background-color: rgb(211, 233, 114);
+    background-image: url(https://www.luxurybynature.nl/Files/4/13000/13520/ProductPhotos/MaxContent/1380026466.jpg);
     font-size: 13px;
+    
+}
+
+
+tr{
+    font-size: 2rem;
+
 }

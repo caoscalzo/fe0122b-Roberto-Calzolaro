@@ -4,8 +4,8 @@ fetch("Abbigliamento.json")
     vestiti.forEach(function (e) {
         var vestiti = new Vestiti(e.id, e.codprod, e.collezione, e.capo, e.modello, e.quantita, e.colore, e.prezzoivaesclusa, e.prezzoivainclusa, e.disponibile, e.saldo);
         //console.log(vestiti)
-        console.log("saldo - " + vestiti.getsaldocapo());
-        console.log("prezzo finale = " + vestiti.getacquistocapo());
+        console.log("saldo - " + vestiti.getsaldocapo() + "€");
+        console.log("prezzo finale = " + vestiti.getacquistocapo() + "€");
         var select = document.querySelector('#tab');
         var riga = document.createElement("tr");
         select.append(riga);
@@ -33,22 +33,22 @@ var Vestiti = /** @class */ (function () {
         this.saldo = saldo;
     }
     Vestiti.prototype.getsaldocapo = function () {
-        return this.prezzoivainclusa * (this.saldo / 100);
+        return Math.ceil(this.prezzoivainclusa * (this.saldo / 100));
     };
     Vestiti.prototype.getacquistocapo = function () {
-        return this.prezzoivainclusa - this.getsaldocapo();
+        return Math.ceil(this.prezzoivainclusa - this.getsaldocapo());
     };
     return Vestiti;
 }());
 var armani = new Vestiti(6, 1234, "inverno", "felpa", 2342, 12, "nero", 90.5, 109.80, "on-line", 20);
 console.log(armani);
-console.log("saldo - " + armani.getsaldocapo());
-console.log("prezzo finale = " + armani.getacquistocapo());
+console.log("saldo - " + armani.getsaldocapo() + "€");
+console.log("prezzo finale = " + armani.getacquistocapo() + "€");
 var nike = new Vestiti(7, 1784, "primavera", "T-shirt", 2782, 25, "nero", 66, 80.5, "negozio", 30);
 console.log(nike);
-console.log("saldo - " + nike.getsaldocapo());
-console.log("prezzo finale = " + nike.getacquistocapo());
+console.log("saldo - " + nike.getsaldocapo() + "€");
+console.log("prezzo finale = " + nike.getacquistocapo() + "€");
 var adidas = new Vestiti(8, 1334, "estate", "pantalone", 2112, 16, "nero", 38, 46.3, "on-line", 50);
 console.log(adidas);
-console.log("saldo - " + adidas.getsaldocapo());
-console.log("prezzo finale = " + adidas.getacquistocapo());
+console.log("saldo - " + adidas.getsaldocapo() + "€");
+console.log("prezzo finale = " + adidas.getacquistocapo() + "€");
