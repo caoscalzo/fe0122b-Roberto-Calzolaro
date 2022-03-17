@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(163, 224, 144);
+}
+.tabella {
+    position: relative;
+    margin: 5%;
+    border-style: double;
+    border-color: green;
+    padding: 5%;
+    background-color: rgb(211, 233, 114);
+    font-size: 13px;
+}

@@ -30,7 +30,7 @@ fetch(
                         lastname: cognome,
                         email: email,
                         password: psw,
-                        role_id :role
+                        role_id: role
                     })
                 })
                 .then(response => response.json())
