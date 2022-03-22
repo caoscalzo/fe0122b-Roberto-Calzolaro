@@ -1,0 +1,24 @@
+#video1{
+    width: 400px;
+    height: 400px;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+
+}
+h2{
+    text-align: center;
+    background-color: grey;
+
+}
+p{
+    text-align: center;
+
+}
+#hello{
+    background-color: gray;
+}
